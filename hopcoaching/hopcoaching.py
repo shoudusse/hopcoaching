@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 from os import path
-from bottle import route, template, default_app, view, static_file
+from bottle import route, view, static_file
 
 PROJECT_PATH = path.dirname(path.dirname(path.abspath(__file__)))
 

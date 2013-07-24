@@ -143,10 +143,11 @@
 		display:none;
 	}
 	#logo h2 {
-		font-size:30px;
+		font-size:0;
 		font-weight:900;
 		color: #444;
 		line-height:40px;
+        width: 213px;
         background: url("../images/logo-hori.png");
 	}
 	#logo h4 {

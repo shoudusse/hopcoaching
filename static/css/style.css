@@ -131,7 +131,7 @@
 		/* Top Section */
 	/*-------------------------------------------------------*/
 	header {
-		height:60px;
+		height:70px;
 		margin-bottom:20px;
 		overflow:hidden;
 	}
@@ -146,13 +146,15 @@
 		font-size:0;
 		font-weight:900;
 		color: #444;
-		line-height:40px;
-        width: 213px;
+		line-height:50px;
+        width: 264px;
         background: url("../images/logo-hori.png");
+        margin-bottom: 10px;
 	}
 	#logo h4 {
 		color:#666;
 		line-height:20px;
+        font-weight: bold;
 	}
 	/* Social icons */
 	.socialicons {

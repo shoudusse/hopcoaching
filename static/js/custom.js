@@ -201,12 +201,12 @@ jQuery(document).ready(function(){
 	
 	// Needed variables
 	var $contactform 	= $('#contactform'),
-		$success		= 'Your message has been sent. Thank you!';
+		$success		= 'Votre message a été envoyé. Merci!';
 		
 	$contactform.submit(function(){
 		$.ajax({
 		   type: "POST",
-		   url: "php/contact.php",
+		   url: "/contact",
 		   data: $(this).serialize(),
 		   success: function(msg)
 		   {

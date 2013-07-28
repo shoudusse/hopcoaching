@@ -472,6 +472,48 @@
     	background-color:/*mainColor*/#5080FF;
 	}
 
+
+    /*-------------------------------------------------------*/
+	/* Values Section */
+	/*-------------------------------------------------------*/
+    .value-section {
+		width: 800px;
+		margin-bottom: 30px;
+	}
+
+    .value-section h3 {
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .value {
+		margin-bottom: 30px;
+        margin-left: 20px;
+        color: #666;
+	}
+
+    .value ul {
+        padding-left: 15px;
+        border-left:1px solid /*mainColor*/#5080FF;
+        margin-bottom: 30px;
+    }
+    .value li {
+        line-height: 25px;
+        font-size:  16px;
+    }
+
+    .value li span {
+        font-weight: bold;
+        margin-right: 10px;
+    }
+
+    .value p {
+        line-height: 1.5;
+        font-size:  16px;
+        padding-left: 15px;
+        border-left:1px solid /*mainColor*/#5080FF;
+        margin-bottom: 30px;
+    }
 	/*-------------------------------------------------------*/
 		/* Portfolio Section */
 	/*-------------------------------------------------------*/

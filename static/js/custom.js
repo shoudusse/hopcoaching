@@ -60,7 +60,7 @@ jQuery(document).ready(function(){
         scroll 			: {
             items           : 1,
             fx 				: 'crossfade',
-            duration        : 1500,                        
+            duration        : 700,
             wipe    		: true
         },
 	    swipe: {

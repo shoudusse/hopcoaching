@@ -4,7 +4,7 @@ import cgi
 import traceback
 
 from os import path
-from bottle import route, view, static_file, request, post, response, run
+from bottle import route, view, static_file, request, post, response, redirect, run
 from smtplib import SMTP
 from email.mime.text import MIMEText
 
@@ -59,6 +59,7 @@ Formulaire de contact rempli à partir de http://hop-coaching.com/
 Nom: %(name)s
 Email: %(email)s
 Message: %(message)s
+A connu Hop Coaching par: %(known)s
 """ % fields)
     msg['Subject'] = 'Formulaire de contact rempli à partir de http://hop-coaching.com/'
     msg['From'] = sender
@@ -83,6 +84,9 @@ def contact():
         return "Désolé, le message n'a pu être envoyé."
     return "SEND"
 
+@route('/contact')
+def getContact():
+    redirect('/#contact')
 
 if __name__ == '__main__':
     run(host='localhost', port=8080, debug=True)

@@ -84,6 +84,18 @@ def contact():
         return "Désolé, le message n'a pu être envoyé."
     return "SEND"
 
+@route('/qui-suis-je')
+def getContact():
+    redirect('/#aboutme')
+
+@route('/modalites-d-un-coaching')
+def getContact():
+    redirect('/#modalities')
+
+@route('/mes-valeurs')
+def getContact():
+    redirect('/#values')
+
 @route('/contact')
 def getContact():
     redirect('/#contact')

@@ -663,10 +663,15 @@
         line-height: 20px;
     }
 
-    .aboutme-citations {
-        float: left;
+    .citations {
         margin-top: 40px;
     }
+
+    .aboutme-citations {
+        float: left;
+    }
+
+
 
     .aboutme-citations li {
         padding-left: 10px;

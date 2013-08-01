@@ -338,9 +338,9 @@
 
 
 	/*-------------------------------------------------------*/
-		/* Resume Section */
+	/* Modalities Section                                    */
 	/*-------------------------------------------------------*/
-    #resume {
+    #modalities {
 		padding:40px 20px;
 		overflow:hidden;
 	}
@@ -452,7 +452,7 @@
 	}
 
 	/* Download Button */
-    #resume .button {
+    #modalities .button {
     	width: 250px;
     	padding: 10px;
     	background-color: #8c8c8c;
@@ -468,7 +468,7 @@
 		     -moz-border-radius: 0px 4px 4px 0px;
 		          border-radius: 0px 4px 4px 0px;
 	}
-    #resume .button:hover {
+    #modalities .button:hover {
     	background-color:/*mainColor*/#5080FF;
 	}
 
@@ -517,7 +517,7 @@
 	/*-------------------------------------------------------*/
 		/* Portfolio Section */
 	/*-------------------------------------------------------*/
-    #portfolio {
+    #values {
 		padding:20px 20px 20px 20px;
 	}
 	/* Images list */
@@ -609,8 +609,82 @@
 		position:absolute;
 		z-index:15;
 	}
+
+    /*-------------------------------------------------------*/
+	/* About Me Section                                      */
 	/*-------------------------------------------------------*/
-		/* Blog Section */
+    #aboutme {
+		padding:40px 20px;
+		overflow:hidden;
+	}
+
+    #aboutme h3 {
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .aboutme-intro {
+        float: left;
+        margin-top: 40px;
+        width: 600px;
+        color: #666666;
+        font-size: 25px;
+        text-align: center;
+        line-height: 40px;
+        border-left: solid 1px #5080ff;
+    }
+
+    .aboutme-intro span {
+        font-weight: bold;
+    }
+    .aboutme-photo {
+        float: left;
+        width: 192px;
+        height: 212px;
+        background: url(../images/photo-inner.png) no-repeat;
+    }
+
+    .aboutme-photo img {
+        position: relative;
+        top: 12px;
+        left: 20px;
+    }
+
+    .aboutme-text {
+        float: left;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .aboutme-text p {
+        margin-top: 20px;
+        text-align: justify;
+        color: #666666;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .aboutme-citations {
+        float: left;
+        margin-top: 40px;
+    }
+
+    .aboutme-citations li {
+        padding-left: 10px;
+        color: #666666;
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 20px;
+        border-left: solid 1px #5080ff;
+    }
+
+    .aboutme-citations li span {
+        margin-left: 10px;
+        color: #aaaaaa;
+        font-size: 12px;
+    }
+	/*-------------------------------------------------------*/
+	/* Blog Section                                          */
 	/*-------------------------------------------------------*/
     #blog {
 		padding:20px;
@@ -1339,7 +1413,7 @@
 	/*-------------------------------------------------------*/
 		/* Resume */
 	/*-------------------------------------------------------*/
-	#resume {
+	#modalities {
 		padding:10px;
 	}
 	.timeline-section {

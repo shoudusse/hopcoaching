@@ -214,12 +214,14 @@
 		color:#FFF;
 		line-height:34px;
 		margin-top:8px;
+        text-align: center;
 	}
 	.about h3 {
 		margin-top:10px;
 		font-size:16px;
 		color:#FFF;
 		line-height:18px;
+        text-align: center;
 	}
 	.about p {
 		position: relative;
@@ -1140,7 +1142,7 @@
 	}
 	.about h1 {
 		line-height:38px;
-		font-size:30px
+		font-size:30px;
 	}
 	.about h3 {
 		font-size:14px;

@@ -12,8 +12,11 @@ PROJECT_PATH = path.dirname(path.dirname(path.abspath(__file__)))
 
 @route('/')
 @view('index.html')
-def index():
-    context = {}
+def index(activetab="profile", fire=False):
+    context = {
+        'activetab': activetab,
+        'fire': fire,
+    }
     return context
 
 @route('/static/<filepath:path>')
@@ -86,19 +89,19 @@ def contact():
 
 @route('/qui-suis-je')
 def getContact():
-    redirect('/#aboutme')
+    return index(activetab='aboutme', fire=True)
 
 @route('/modalites-d-un-coaching')
 def getContact():
-    redirect('/#modalities')
+    return index(activetab='modalities', fire=True)
 
 @route('/mes-valeurs')
 def getContact():
-    redirect('/#values')
+    return index(activetab='values', fire=True)
 
 @route('/contact')
 def getContact():
-    redirect('/#contact')
+    return index(activetab='contact', fire=True)
 
 if __name__ == '__main__':
     run(host='localhost', port=8080, debug=True)

@@ -75,20 +75,9 @@ jQuery(document).ready(function(){
 	/*	Menu
 	/* ---------------------------------------------------------------------- */
 	
-	// Needed variables
-	var $content 		= $("#content");
-	
-	// Run easytabs
-  	$content.easytabs({
-	  animate			: true,
-	  updateHash		: false,
-	  transitionIn		:'slideDown',
-	  transitionOut		:'slideUp',
-	  animationSpeed	:600,
-	  tabs				:".tmenu",
-	  tabActiveClass	:'active',
-	});
 
+    // Needed variables
+    var $content = $("#content");
 	
 	// Hover menu effect
 	$content.find('.tabs li a').hover(

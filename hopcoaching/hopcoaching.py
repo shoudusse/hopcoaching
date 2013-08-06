@@ -51,6 +51,10 @@ def server_static():
 def server_static():
     return static_file('robots.txt', root=path.join(PROJECT_PATH, 'static'))
 
+@route('sitemap.xml')
+def server_static():
+    return static_file('sitemap.xml', root=path.join(PROJECT_PATH, 'static'))
+
 sender = "Hop Coaching <contact@hop-coaching.com>"
 recipient = sender
 

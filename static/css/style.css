@@ -396,6 +396,11 @@
         line-height: 1.5;
 	}
 
+    .timeline .modality-topic {
+        padding-left: 10px;
+        list-style: circle;
+    }
+
     .timeline .modality-topic li {
         margin-bottom: 0;
         line-height: 1.5;

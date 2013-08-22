@@ -12,10 +12,15 @@ PROJECT_PATH = path.dirname(path.dirname(path.abspath(__file__)))
 
 @route('/')
 @view('index.html')
-def index(activetab="profile", fire=False):
+def index(title=None, activetab="profile", fire=False):
+    if not title:
+        title = "Hop Coaching, Coaching sur Lyon et sa Région"
+    else:
+        title = "Hop Coaching | %s | Coaching sur Lyon et sa Région" % title
     context = {
         'activetab': activetab,
         'fire': fire,
+        'title': title,
     }
     return context
 
@@ -93,19 +98,23 @@ def contact():
 
 @route('/qui-suis-je')
 def getContact():
-    return index(activetab='aboutme', fire=True)
+    return index(title="Qui suis-je", activetab='aboutme', fire=True)
 
 @route('/modalites-d-un-coaching')
 def getContact():
-    return index(activetab='modalities', fire=True)
+    return index(title="Modalités d'un Coaching", activetab='modalities', fire=True)
 
 @route('/mes-valeurs')
 def getContact():
-    return index(activetab='values', fire=True)
+    return index(title='Mes valeurs', activetab='values', fire=True)
 
 @route('/contact')
 def getContact():
-    return index(activetab='contact', fire=True)
+    return index(title='Contact sur Lyon', activetab='contact', fire=True)
+
+@route('/contact-lyon')
+def getContact():
+    return index(title='Contact sur Lyon', activetab='contact', fire=True)
 
 if __name__ == '__main__':
     run(host='localhost', port=8080, debug=True)

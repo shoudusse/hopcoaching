@@ -216,23 +216,42 @@ jQuery(document).ready(function(){
 	/* ---------------------------------------------------------------------- */
 	/*	Google Maps
 	/* ---------------------------------------------------------------------- */
-	
-	// Needed variables
-	var $map 				= $('#map'),
-		$tabContactClass 	= ('tab-contact'),
-		$lat 				= '45.759723',
+
+	var	$lat 				= '45.759723',
 		$lon 				= '4.842223';
 
-	$map.gmap().bind('init', function(ev, map) {
-		$map.gmap('addMarker', {'position': $lat +','+ $lon  , 'bounds': true}).click(function() {
-			$map.gmap('openInfoWindow', {'content': 'Hello World!'}, this);
-		});
-		$map.gmap('option', 'zoom', 10);
-	});
+    var map;
+    function initialize() {
+        var positionLyon = new google.maps.LatLng($lat, $lon);
+        var mapOptions = {
+            zoom: 10,
+            center: positionLyon,
+            disableDefaultUI: true,
+            draggable: false,
+            scrollwheel: false
+        };
+        map = new google.maps.Map(
+            document.getElementById('map'),
+            mapOptions
+        );
+        var mapTexte = 'Sorina Dumoulin, La Part Dieu 69003 Lyon';
+        var marker = new google.maps.Marker({
+            position: positionLyon,
+            map: map,
+            title: mapTexte
+        });
+
+        var infowindow = new google.maps.InfoWindow({
+            content: mapTexte
+        });
+        infowindow.open(map,marker);
+
+}
+    google.maps.event.addDomListener(window, 'load', initialize);
 
 	// Refresh Map
 	$content.bind('easytabs:after', function(evt,tab,panel) {
-		$map.gmap('refresh'); 
+        initialize();
   	});
 
       

@@ -116,5 +116,9 @@ def getContact():
 def getContact():
     return index(title='Contact sur Lyon', activetab='contact', fire=True)
 
+@route('/mentions')
+def getContact():
+    return index(title='Mentions Légales', activetab='mentions', fire=True)
+
 if __name__ == '__main__':
     run(host='localhost', port=8181, debug=True)

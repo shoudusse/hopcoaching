@@ -1,0 +1,33 @@
+Element de nav pour blog
+<li class="tmenu" id="blog-li"><a href="#blog"><i>P</i>Blog</a></li>
+
+
+<!-- Social Icons -->
+    <ul class="socialicons">
+        <li class="socials-text">Social Profiles</li>
+        <li><a href="#" class="transition">&#x2a;</a></li>
+        <li><a href="#" class="transition">&#x2c;</a></li>
+        <li><a href="#" class="transition">&#x2d;</a></li>
+        <li><a href="#" class="transition">&#x31;</a></li>
+    </ul>
+<!-- /Social Icons -->
+
+
+<!-- blog -->
+<section id="blog">
+   <h3 class="main-heading">Actualité</h3>
+   <div class="blog-content-wrapper">
+     <div class="blog-entry">
+       <h3>Titre de l'article</h3>
+       <p>
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+           <a href="http://www.acap-consulting.com"><h3>ACAP Consulting</h3></a>
+           <span class="entry-date"><span class="month-year">Août 2013</span><span class="day">03</span></span>
+       </p>
+     </div>
+   </div>
+   <div class="blog-sidebar">
+       <h3 class="main-heading">Tags</h3>
+   </div>
+</section>
+<!-- /blog -->

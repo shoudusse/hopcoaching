@@ -1,404 +1,79 @@
 <!DOCTYPE html>
-<!--suppress ALL -->
 <html dir="ltr" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+  % include('head.tpl', title=title)
+  </head>
+  <body>
+  <!-- Container -->
+  <section id="container">
+    <!-- Header -->
+    % include('header.tpl')
+    <!-- /Header -->
 
-<head>
+    <!-- Content -->
+    <section id="content">
 
-    <title>{{ title }}</title>
-    <meta name="description" content="Coaching et Accompagnement Orienté Solutions sur Lyon et sa Région. Recherche d'emploi et entretiens d'embauche, Gestion du temps et du stress, Développement personnel">
-    <meta name="keywords" content="coaching, coachings, lyon, rhone, alpes, recherche, emploi, entretien, entretiens, gestion, temps, développement, personnel, stress, préparation, oraux, concours, motivation, épanouissement, vie, personnel, personnelle, professionnelle">
-    <meta name ="email" content ="contact@hop-coaching.com">
-    <meta http-equiv="Content-type" content ="text/html; charset=utf-8">
-    <meta name ="revisit-after" content ="7 days">
-    <meta name ="Author" content ="Sylvain Houdusse">
-    <meta name ="Owner" content ="Sorina Dumoulin">
-    <meta name ="Publisher" content ="Sorina Dumoulin">
-    <meta name ="copyright" content ="Sorina Dumoulin">
-    <meta name ="reply-to" content ="contact@hop-coaching.com">
-    <meta name ="Identifier-URL" content ="http://www.hop-coaching.com">
-    <meta name ="language" content ="FR">
-    <meta name ="site-languages" content ="French">
-    <meta name ="Content-Language" content ="en-FR">
-    <meta name ="Rating" content ="General">
-    <meta name ="Distribution" content ="Global">
-    <meta name ="organization" content ="Sorina Dumoulin Coaching">
-    <meta name ="contact" content ="contact@hop-coaching.com">
-    <meta name ="contactOrganization" content ="Sorina Dumoulin Coaching">
-    <meta name ="contactCity" content ="Lyon">
-    <meta name ="geography" content ="Lyon,69,France">
-    <meta name ="Location" content ="France">
-    <meta name ="contactState" content ="France">
-    <meta name ="Category" content ="Coaching,Accompagnement,Suivi">
-    <meta name ="Page-topic" content ="Coaching,Accompagnement,Suivi">
-    <meta name ="Audience" content ="all">
-    <meta name ="Classification" content ="Coaching">
-    <meta name ="doc-type" content ="Pages web">
-    <meta name ="doc-class" content ="Complet">
-    <meta name ="doc-rights" content ="Domaine public"> 
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,800,700,400italic|PT+Serif:400,400italic"/>
-    <link rel="shortcut icon" sizes="16x16 32x32 48x48 64x64" href="images/favicon.ico">
-    <!--[if IEMobile]>
-    <link rel="stylesheet" type="text/css" href="css/iemobile.css"/>
-    <![endif]-->
+      <!-- Home -->
+      % include('home.tpl')
+      <!-- /Home -->
 
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jquery.easytabs.min.js"></script>
-    <script type="text/javascript" src="js/respond.min.js"></script>
-    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
-    <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-    <script type="text/javascript" src="js/jquery-ui-map.js"></script>
-    <script type="text/javascript" src="js/jquery.carouFredSel.js"></script>
-    <script type="text/javascript" src="js/plugins.js"></script>
-    <script type="text/javascript" src="js/custom.js"></script>
+      <!-- Menu -->
+      % include('nav.tpl')
+      <!-- /Menu -->
+
+      <!-- Modalités -->
+      % include('modalities.tpl')
+      <!-- /Modalités -->
+
+      <!-- Valeurs -->
+      % include('values.tpl')
+      <!-- /Valeurs -->
+
+      <!-- Contact -->
+      % include('contact.tpl')
+      <!-- /Contact -->
+
+      <!-- Qui suis je -->
+      % include('aboutme.tpl')
+      <!-- /Qui suis je -->
+
+      <!-- Mentions Légales -->
+      % include('mentions.tpl')
+      <!-- /Mentions Légales -->
+
+    </section>
+    <!-- /Content -->
+
+    <!-- Footer -->
+    % include('footer.tpl')
+    <!-- /Footer -->
+
+  </section>
+  <!-- /Container -->
     <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-42605114-1', 'hop-coaching.com');
-  ga('send', 'pageview');
-
-    </script>
-
-    <!--[if lt IE 9]>
-        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-</head>
-    <body>
-        <!-- Container -->
-        <section id="container">
-
-            <!-- Header -->
-			<header>
-            	<!-- Logo -->
-            	<div id="logo">
-                	<a href="/"><h2>HOP COACHING</h2></a>
-                    <h4>COACHING SUR LYON ET SA RÉGION</h4>
-                </div>
-                <!-- /Logo -->
-
-                <!-- Social Icons -->
-                <!--
-                <ul class="socialicons">
-                    <li class="socials-text">Social Profiles</li>
-                	<li><a href="#" class="transition">&#x2a;</a></li>
-                    <li><a href="#" class="transition">&#x2c;</a></li>
-                    <li><a href="#" class="transition">&#x2d;</a></li>
-                    <li><a href="#" class="transition">&#x31;</a></li>
-                </ul>
-                -->
-                <!-- /Social Icons -->
-            </header>
-            <!-- /Header -->
-
-            <!-- Content -->
-            <section id="content" >
-
-                <!-- Home -->
-                <div id="profile">
-                 	<!-- Block gauche section -->
-                	<div class="about">
-                    	<div class="photo-inner">
-                            <ul>
-                                <li><a href="/"><img src="images/hop-1.png" height="103" width="153" alt="Hop Coaching Lyon"/></a></li>
-                                <li><a href="/"><img src="images/hop-1.png" height="103" width="153" alt="Hop Coaching Lyon"/></a></li>
-                            </ul>
-                        </div>
-                        <h1>PARTENAIRE DE VOTRE RÉUSSITE !</h1>
-                        <h3>COACHING SUR LYON ET SA RÉGION</h3>
-                        <p>
-                          Le Coaching est un accompagnement au changement pour un épanouissement dans votre vie personnelle et/ou professionnelle.<br/><br/>
-	                        L’objectif est de vous aider à trouver des solutions réalistes et compatibles avec vos motivations et intérêts personnels afin d'atteindre votre but.<br/><br/>
-                          Vous révélerez vos talents et développerez une dynamique positive de réussite.
-                        </p>
-                    </div>
-                    <!-- /Block gauche section -->
-
-                    <!-- Block droite section -->
-                	<ul class="personal-info">
-                        <li><label>Accompagnement en:</label></li>
-                        <li><span>- Orientation scolaire et professionnelle</span></li>
-                        <li><span>- Préparation aux oraux de concours</span></li>
-                        <li><span>- Recherche d'emploi et entretiens d'embauche</span></li>
-                        <li><span>- Gestion du temps et du stress</span></li>
-                        <li><span>- Développement personnel</span></li>
-						            <li><label>Avantages :</label></li>
-						            <li><span>- Réfléchir sur l’ensemble de vos potentialités</span></li>
-						            <li><span>- Définir clairement vos objectifs en fonction de &nbsp;&nbsp;ce qui est important pour vous</span></li>
-						            <li><span>- Etre plus efficace et passer à l’action pour &nbsp;&nbsp;obtenir des résultats durables</span></li>
-                    </ul>
-                    <!-- /Block droite section -->
-                </div>
-                <!-- /Home -->
-
-                <!-- Menu -->
-                <nav class="menu">
-                	<ul class="tabs">
-                        <li class="tmenu" id="profile-li"><a href="#profile" class="tab-profile"><i>B</i>Accueil</a></li>
-                        <li class="tmenu" id="modalities-li"><a href="#modalities"><i>o</i>Modalités d’un Coaching</a></li>
-                        <li class="tmenu" id="values-li"><a href="#values"><i>p</i>Mes Valeurs</a></li>
-                        <li class="tmenu" id="aboutme-li"><a href="#aboutme"><i>`</i>Qui suis-je?</a></li>
-                         <!--  <li class="tmenu" id="blog-li"><a href="#blog"><i>P</i>Blog</a></li> -->
-                        <li class="tmenu" id="contact-li"><a href="#contact"><i>&#x21;</i>Contact</a></li>
-                        <li class="tmenu" id="mentions-li"><a href="#mentions"><i></i></a></li>
-                    </ul>
-                    <a class="prev" id="menu-prev" href="#">&#xe073;</a>
-                    <a class="next" id="menu-next" href="#">&#xe076;</a>
-
-                </nav>
-                <!-- /Menu -->
-
-                <!-- Modalités -->
-                <section id="modalities">
-                    <div class="timeline-section">
-                        <h3 class="main-heading">Modalités d’un Coaching</h3>
-                        <ol class="timeline">
-                          <li>
-                              <div class="timelineUnit">
-                                  <h4>Entretien préliminaire gratuit d'une heure qui permet de</h4>
-                                  <p>
-                                  <ul class="modality-topic">
-                                  <li>Se présenter et se connaître</li>
-                                  <li>Exprimer ses attentes</li>
-                                  <li>Valider la pertinence du coaching à votre problématique</li>
-                                  <li>Définir un programme de coaching personnalisé et adapté</li>
-                                  </ul>
-                              </div>
-                          </li>
-                          <li>
-                              <div class="timelineUnit">
-                                  <h4>La durée du coaching</h4>
-                                  <p>Elle est variable en fonction de l’objectif que vous voulez atteindre et du rythme auquel vous souhaitez vous investir dans votre démarche de coaching.
-Le rythme du coaching peut être hebdomadaire ou mensuel.</p>
-                                  <p>Le coaching peut être ponctuel (1 à 3 séances) pour préparer un entretien d’embauche par exemple ou de plus longue durée (3 à 6 mois) pour un accompagnement plus personnel comme la gestion du stress ou l'amélioration de la confiance en soi.</p>
-                              </div>
-                            </li>
-                            <li>
-                              <div class="timelineUnit">
-                                  <h4>Les séances de coaching</h4>
-                                  <p>Chaque séance dure 1h. En fin de séance, un programme de travail est défini avec le coaché pour optimiser le bénéfice de chaque rencontre.
-Les séances ont lieu sur rendez-vous et peuvent se dérouler en face à face, par téléphone ou en visio (skype). Vous choisissiez ce qui vous convient le mieux.</p>
-                              </div>
-                          </li>
-                          <li>
-                              <div class="timelineUnit">
-                                  <h4>Tarif du coaching</h4>
-                                  <p>Sur devis, <a href="/contact-lyon">me consulter</a>.</p>
-                                  <p>
-Prix préférentiel pour les étudiants et demandeurs d’emploi.</p>
-                                  <p>Le paiement s’effectue à la séance pour les particuliers et selon les conditions contractuelles pour les entreprises et institutions.</p>
-                              </div>
-                          </li>
-                        </ol>
-
-                    <div>
-                        </div>
-                    </div>
-                </section>
-                <!-- /Modalités -->
-
-                <!-- Valeurs -->
-                <section id="values">
-                    <div class="value-section">
-                        <h3 class="main-heading">Mes valeurs</h3>
-                        <div class="value">
-                        <ul>
-                            <li><span>Confidentialité :</span>Ça reste entre nous</li>
-                            <li><span>Respect et tolérance:</span>Pas de jugement</li>
-                            <li><span>Intégrité et authenticité :</span>Rester naturel et sincère</li>
-                        </ul>
-                        <p>
-Ainsi, je m’engage, dans le cadre de votre coaching, grâce à des outils, une écoute active et la technique de « l’art du questionnement » à vous faire prendre conscience de ce qui compte vraiment pour vous, stimuler votre motivation et déclencher l’action. Vous deviendrez alors auteur et acteur de votre évolution. Vous trouverez des solutions qui vous sont propres, vous permettant d’atteindre vos objectifs.
-                        </p>
-                        <p>
-Votre niveau d’implication dans votre démarche de coaching est déterminant dans son aboutissement et l’atteinte de vos objectifs.<br/>
-Assiduité, ponctualité, travail entre les séances, authenticité et responsabilité des décisions sont les principaux engagements du coaché.
-                        </p>
-                        <p>
-
-                        </p>
-                        </div>
-                    </div>
-                </section>
-                <!-- /Valeurs -->
-
-                <!-- Contact -->
-                <section id="contact">
-                	<div id="map"></div>
-                	<!-- Contact Info -->
-                    <div class="contact-info">
-                        <h3 class="main-heading"><span>Contact</span></h3>
-                    	<ul>
-                            <li>Sorina Dumoulin<br /><br /></li>
-                            <li>La Part Dieu</li>
-                            <li>69003 Lyon</li>
-                            <li>Email: contact@hop-coaching.com</li>
-                            <li>Tel: +33 6 63 10 44 41</li>
-                            <li>Site Web: <a href="http://hop-coaching.com"> hop-coaching.com</a></li>
-                        </ul>
-                    </div>
-                    <!-- /Contact Info -->
-
-                    <!-- Contact Form -->
-                    <div class="contact-form">
-                        <h3 class="main-heading"><span>Pour toute demande d'information, n'hésitez pas à me contacter.</span></h3>
-                        <div id="contact-status"></div>
-                        <form action="/contact" method="post" id="contactform">
-                            <p>
-                            	<label for="name">Nom</label>
-                            	<input type="text" name="name" id="name" class="input" >
-                            </p>
-                            <p>
-                            	<label for="email">Email</label>
-                            	<input type="text" name="email" id="email" class="input">
-                            </p>
-                            <p>
-                            	<label for="message">Votre Message</label>
-                                <textarea name="message" id="message" cols="88" rows="6" class="textarea" ></textarea>
-                            </p>
-                            <p>
-                                <label for="known">Comment avez vous connu Hop Coaching?</label>
-                                <select id="known" name="known">
-                                    <option value="Choisir">Choisir</option>
-                                    <option value="Moteur de recherche">Moteur de recherche</option>
-                                    <option value="Réseaux sociaux (Facebook, Twitter ...)">Réseaux sociaux (Facebook, Twitter ...)</option>
-                                    <option value="Press">Presse</option>
-                                    <option value="Bouche à oreille">Bouche à oreille</option>
-                                    <option value="Autre">Autre</option>
-                                </select>
-                            </p>
-                            <input type="submit" name="submit" value="Envoyer votre message" class="button transition">
-                        </form>
-                    </div>
-                    <!-- /Contact Form -->
-                </section>
-                <!-- /contact -->
-                <!-- Qui suis je -->
-                <section id="aboutme">
-                    <h3 class="main-heading">Qui suis-je?</h3>
-                    <div class="aboutme-header">
-                        <div class="aboutme-intro"><span>Sorina Dumoulin</span><br>Coach<br>Partenaire de votre réussite</div>
-                        <div class="aboutme-photo"><img src="images/photo-aboutme4.jpg" alt="photo du coach" title="photo du coach"></div>
-                        <div class="aboutme-text">
-                            <p>Diplômée de l'EBS Paris (European Business School) et titulaire d'un MBA, j'ai plusieurs années d'expériences professionnelles dans la vente en B to B, notamment dans le secteur Aéronautique (Air France Cargo, Zodiac Aerospace, Sabena Technics) et du transport (Kuehne + Nagel).</p>
-                            <p>Ces différentes expériences en France et à l’étranger (USA, Canada, Europe) m’ont permis de développer un sens aigu de la communication et la faculté de développer rapidement et durablement des relations de confiance avec mes interlocuteurs. L’écoute et l’empathie sont au cœur de chaque rencontre. La tolérance des valeurs et des croyances de l’autre est nécessaire pour obtenir son respect et sa considération.</p>
-                            <p>Le coaching est mon second métier. L’accompagnement de particuliers ou de professionnels dans l’atteinte de leurs objectifs me passionne.</p>
-                            <p>Le coaching aide à développer des ressources nouvelles ou mal exploitées et donc a être plus efficace.<br>
-                            L’apprentissage des expériences passées, une prise de conscience de ce que l’on est et de ce que l’on veut vraiment favorise l’autonomie et nous permet de déployer notre potentiel et d'atteindre nos objectifs.</p>
-                            <div class="citations">
-                            <h3 class="main-heading">Les citations qui m’inspirent :</h3>
-                            <ul class="aboutme-citations">
-                                <li>Ils ne savaient pas que c’était impossible, alors ils l’ont fait.<br>
-                                    <span>- Mark TWAIN – Ecrivain et Humoriste</span>
-                                </li>
-                                <li>Vous êtes maître de votre vie, et qu’importe votre prison, vous en avez la clef.<br>
-                                    <span>- Dalaï – Lama – Bouddhiste</span>
-                                </li>
-                                <li>Un pessimiste voit la difficulté dans chaque opportunité.<br>
-                                    Un optimiste voit l’opportunité dans chaque difficulté.<br>
-                                    <span>- Winston CHURCHILL – Homme d’Etat</span>
-                                </li>
-                                <li>Il faut viser la lune, parce qu’au moins, si vous échouez, vous finissez dans les étoiles.<br>
-                                    <span>- Oscar WILDE – Ecrivain</span>
-                                </li>
-                                <li>Quand on ne peut revenir en arrière, on ne doit se préoccuper que de la meilleure façons d’aller de l’avant.<br>
-                                    <span>- Paolo COELHO – Ecrivain</span>
-                                </li>
-                            </ul>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- Mentions Légales -->
-                <section id="mentions">
-                  <div class="value-section">
-                        <h3 class="main-heading">Mentions Légales</h3>
-                        <div class="value">
-                        <ul>
-                            <li><span>Ce site est édité par:</span></li>
-                            <li>Sylvain Houdusse</li>
-                            <li>42 rue Hector Berlioz</li>
-                            <li>69009 Lyon</li>
-                        </ul>
-                        <ul>
-                            <li><span>Ce site est hébergé par:</span></li>
-                            <li>Online SAS</li>
-                            <li>BP 438 75366</li>
-                            <li>PARIS CEDEX 08</li>
-                        </ul>
-                        </div>
-                    </div>
-                </section>
-                <!-- /Mentions Légales -->
-                <!-- /Qui suis je -->
-                <!-- blog -->
-                <!-- <section id="blog">
-                   <h3 class="main-heading">Actualité</h3>
-                   <div class="blog-content-wrapper">
-                     <div class="blog-entry">
-                       <h3>Titre de l'article</h3>
-                       <p>
-                           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                           <a href="http://www.acap-consulting.com"><h3>ACAP Consulting</h3></a>
-                           <span class="entry-date"><span class="month-year">Août 2013</span><span class="day">03</span></span>
-                       </p>
-                     </div>
-                   </div>
-                   <div class="blog-sidebar">
-                       <h3 class="main-heading">Tags</h3>
-                   </div>
-                </section> -->
-                <!-- /blog -->
-
-            </section>
-            <!-- /Content -->
-
-            <!-- Footer -->
-			<footer>
-            	<div class="copyright">Copyright © 2013 Hop Coaching</div>
-                <ul class="links">
-                  <li><a href="/mentions">Mentions Légales</a><!--<span>|</span>--></li>
-                </ul>
-            </footer>
-            <!-- /Footer -->
-
-        </section>
-		<!-- /Container -->
-    <script>
-      jQuery(document).ready(function(){
+      jQuery(document).ready(function () {
         // Needed variables
-        var $content 		= $("#content");
+        var $content = $("#content");
 
         // Run easytabs
         $content.easytabs({
-          animate			: true,
-          updateHash		: false,
-          transitionIn		:'slideDown',
-          transitionOut		:'slideUp',
-          animationSpeed	:600,
-          tabs				:".tmenu",
-          tabActiveClass	:'active',
-          defaultTab        :'#{{ activetab }}-li'
+          animate: true,
+          updateHash: false,
+          transitionIn: 'slideDown',
+          transitionOut: 'slideUp',
+          animationSpeed: 600,
+          tabs: ".tmenu",
+          tabActiveClass: 'active',
+          defaultTab: '#{{ activetab }}-li'
         });
 
-        %if fire == True:
-
-          // Logo
-          var $logo 	= $('#logo');
-
-          // Show logo
-          $logo.fadeIn('slow');
-
-        %end
+        % if fire == True:
+        // Logo
+        var $logo = $('#logo');
+        // Show logo
+        $logo.fadeIn('slow');
+        % end
       });
     </script>
-    </body>
+  </body>
 </html>

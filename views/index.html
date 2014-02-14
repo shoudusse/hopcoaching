@@ -67,13 +67,6 @@
           defaultTab: '#{{ activetab }}-li'
         });
 
-        % if fire == True:
-        // Logo
-        var $logo = $('#logo');
-        // Show logo
-        $logo.fadeIn('slow');
-        % end
-
         $('#mentions-lnk').click( function() {
           $content.easytabs('select', '#mentions');
          });

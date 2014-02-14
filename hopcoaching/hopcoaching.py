@@ -12,15 +12,11 @@ PROJECT_PATH = path.dirname(path.dirname(path.abspath(__file__)))
 
 @route('/')
 @view('index.html')
-def index(title=None, activetab="profile", fire=False):
-    if not title:
-        title = "Hop Coaching, Coaching sur Lyon et sa Région"
-    else:
-        title = "Hop Coaching | %s | Coaching sur Lyon et sa Région" % title
+def index():
+    title = "Hop Coaching, Coaching sur Lyon et sa Région"
     context = {
-        'activetab': activetab,
-        'fire': fire,
         'title': title,
+        'activetab': 'profile',
     }
     return context
 
@@ -95,30 +91,6 @@ def contact():
         response.status = 500
         return "Désolé, le message n'a pu être envoyé."
     return "SEND"
-
-@route('/qui-suis-je')
-def getContact():
-    return index(title="Qui suis-je", activetab='aboutme', fire=True)
-
-@route('/modalites-d-un-coaching')
-def getContact():
-    return index(title="Modalités d'un Coaching", activetab='modalities', fire=True)
-
-@route('/mes-valeurs')
-def getContact():
-    return index(title='Mes valeurs', activetab='values', fire=True)
-
-@route('/contact')
-def getContact():
-    return index(title='Contact sur Lyon', activetab='contact', fire=True)
-
-@route('/contact-lyon')
-def getContact():
-    return index(title='Contact sur Lyon', activetab='contact', fire=True)
-
-@route('/mentions')
-def getContact():
-    return index(title='Mentions Légales', activetab='mentions', fire=True)
 
 if __name__ == '__main__':
     run(host='localhost', port=8181, debug=True)

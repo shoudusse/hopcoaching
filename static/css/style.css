@@ -655,7 +655,8 @@
     .aboutme-text {
         float: left;
         width: 100%;
-        margin-top: 20px;
+        margin-top: 0;
+        margin-bottom: 40px;
     }
 
     .aboutme-text p {
@@ -666,17 +667,45 @@
         line-height: 20px;
     }
 
+    #ref-id h4 {
+		line-height:25px;
+		font-size:20px;
+        font-weight: bold;
+		color: #666666;
+        margin-bottom: 5px;
+	}
+    #ref-id #ref-lists {
+        position: relative;
+        padding-left: 130px;
+    }
+    #ref-id .ref-section {
+        float: left;
+        padding-left: 10px;
+        margin-left: 40px;
+        border-left: solid 1px #5080ff;
+    }
+
+    #ref-id ul {
+        list-style: circle;
+        padding-left: 20px;
+    }
+
+    #ref-id li {
+        color: #666666;
+        font-size: 16px;
+        line-height: 25px;
+    }
     .citations {
+        position: relative;
         margin-top: 40px;
     }
 
-    .aboutme-citations {
-        float: left;
+
+    .citations ul.values-citations {
+        border-left: none;
+        padding-left: 0 ;
     }
-
-
-
-    .aboutme-citations li {
+    .values-citations li {
         padding-left: 10px;
         color: #666666;
         font-size: 16px;
@@ -685,7 +714,8 @@
         border-left: solid 1px #5080ff;
     }
 
-    .aboutme-citations li span {
+    .values-citations li span {
+        font-weight: normal;
         margin-left: 10px;
         color: #aaaaaa;
         font-size: 12px;
@@ -1326,6 +1356,9 @@
     .aboutme-intro {
         width: 400px;
     }
+    #ref-id #ref-lists {
+        padding-left: 0;
+    }
 	/*-------------------------------------------------------*/
 		/* Blog */
 	/*-------------------------------------------------------*/
@@ -1489,6 +1522,9 @@
 	/*-------------------------------------------------------*/
     .aboutme-intro {
         width: 200px;
+    }
+    #ref-id #ref-lists {
+        padding-left: 0;
     }
 
 

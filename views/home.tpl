@@ -25,11 +25,12 @@
   <ul class="personal-info">
     <li><label>Accompagnement en:</label></li>
     <li><span>- Orientation scolaire et professionnelle</span></li>
-    <li><span>- Préparation aux oraux de concours</span></li>
     <li><span>- Recherche d'emploi et entretiens d'embauche</span></li>
-    <li><span>- Gestion du temps et du stress</span></li>
-    <li><span>- Développement personnel</span></li>
-    <li><label>Avantages :</label></li>
+    <li><span>- Création d'activité / Projets professionnels</span></li>
+    <li><span>- Préparation aux oraux de concours</span></li>
+    <li><span>- Présentation de mémoire de fin d'études</span></li>
+    <li><span>- Développement personnel et motivation</span></li>
+    <li><label>Avantages:</label></li>
     <li><span>- Réfléchir sur l’ensemble de vos potentialités</span></li>
     <li><span>- Définir clairement vos objectifs en fonction de &nbsp;&nbsp;ce qui est important pour vous</span></li>
     <li><span>- Etre plus efficace et passer à l’action pour &nbsp;&nbsp;obtenir des résultats durables</span></li>

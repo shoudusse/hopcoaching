@@ -22,9 +22,28 @@
         principaux engagements du coaché.
       </p>
 
-      <p>
-
-      </p>
+      <div class="citations">
+        <h3 class="main-heading">Les citations qui m’inspirent :</h3>
+        <ul class="values-citations">
+          <li>Ils ne savaient pas que c’était impossible, alors ils l’ont fait.<br>
+            <span>- Mark TWAIN – Ecrivain et Humoriste</span>
+          </li>
+          <li>Il y a bien des manières de ne pas réussir, mais la plus sûre est de ne jamais prendre de risque.<br>
+            <span>- Benjamin FRANKLIN - Physicien et Homme Politique</span>
+          </li>
+          <li>Un pessimiste voit la difficulté dans chaque opportunité.<br>
+            Un optimiste voit l’opportunité dans chaque difficulté.<br>
+            <span>- Winston CHURCHILL – Homme d’Etat</span>
+          </li>
+          <li>Il faut viser la lune, parce qu’au moins, si vous échouez, vous finissez dans les étoiles.<br>
+            <span>- Oscar WILDE – Ecrivain</span>
+          </li>
+          <li>Quand on ne peut revenir en arrière, on ne doit se préoccuper que de la meilleure façons d’aller de
+            l’avant.<br>
+            <span>- Paolo COELHO – Ecrivain</span>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </section>

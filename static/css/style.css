@@ -224,12 +224,11 @@
         text-align: center;
 	}
 	.about p {
-		position: relative;
 		top: 15px;
         left: 20px;
-        width: 450px;
+        width: 100%;
 		font-size:15px;
-		margin-top:25px;
+		margin-top:50px;
 		margin-bottom: 40px;
 		color:/*profileTextColor*/#B5C9FF;
 		font-weight: 400;
@@ -642,7 +641,7 @@
     .aboutme-photo {
         float: left;
         width: 192px;
-        height: 212px;
+        height: 100px;
         background: url(../images/photo-inner.png) no-repeat;
     }
 
@@ -1433,9 +1432,10 @@
 	}
 	.about .photo-inner {
 		margin-left:40px;
+		margin-bottom:20px;
 		/*background:url(../images/photo-inner.png) no-repeat;*/
 		width:192px;
-		height:212px;
+		height:100px;
 		padding:12px 0 0 20px;
 	}
 	.about h1 {

@@ -7,14 +7,15 @@
     <div class="aboutme-text">
       <p>
         Je suis diplômée de l'EBS Paris (European Business School) et titulaire d'un Master II en ingénierie d'affaires
-        et négoce international de l'ISC Paris (Institut Supérieur du Commerce).<br>J'ai plusieurs années d'expériences
-        professionnelles dans la vente en B to B, notamment dans le secteur aéronautique et du transport.
+        et négoce international de l'ISC Paris (Institut Supérieur du Commerce).<br>
+        J'ai 10 ans d'expérience professionnelle dans la vente en B to B, notamment dans le secteur aéronautique et du transport.
       </p>
       <p>
         Ces différentes expériences en France et à l’étranger (USA, Canada, Europe) m’ont permis de développer un sens
         aigu de la communication et la faculté de développer rapidement et durablement des relations de confiance avec
-        mes interlocuteurs.<br>L’écoute et l’empathie sont au cœur de chaque rencontre. La tolérance des valeurs et des
-        croyances de l’autre est nécessaire pour obtenir son respect et sa considération.
+        mes interlocuteurs.<br>
+        L’écoute et l’empathie sont au cœur de chaque rencontre. La tolérance des valeurs et des croyances de l’autre est
+        nécessaire pour obtenir son respect et sa considération.
       </p>
       <p>
         Le coaching est mon second métier. J'ai commencé par une formation en base PNL avec l'institut Paul Pyronnet

@@ -41,7 +41,6 @@
         <li>Kuehne & Nagel</li>
         <li>Sabena Technics</li>
         <li>Zodiac Aérospace</li>
-        <li>Kuehne & Nagel</li>
       </ul>
     </div>
     <div class="ref-section">

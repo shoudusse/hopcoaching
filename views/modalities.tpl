@@ -42,7 +42,7 @@
         <div class="timelineUnit">
           <h4>Tarif du coaching</h4>
 
-          <p>Sur devis, <a href="/contact-lyon">me consulter</a>.</p>
+          <p>Sur devis, <a id="contact-lnk">me consulter</a>.</p>
 
           <p>
             Prix préférentiel pour les étudiants et demandeurs d’emploi.</p>

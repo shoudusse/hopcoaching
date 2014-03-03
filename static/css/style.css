@@ -473,6 +473,9 @@
     	background-color:/*mainColor*/#5080FF;
 	}
 
+    #contact-lnk {
+        cursor: pointer;
+    }
 
     /*-------------------------------------------------------*/
 	/* Values Section */

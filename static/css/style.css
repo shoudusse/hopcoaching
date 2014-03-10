@@ -633,7 +633,7 @@
     .aboutme-intro {
         float: left;
         margin-top: 40px;
-        width: 600px;
+        width: 550px;
         color: #666666;
         font-size: 25px;
         text-align: center;
@@ -1266,7 +1266,7 @@
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-@media only screen and (min-width: 480px) and (max-width: 768px) {
+@media only screen and (min-width: 480px) and (max-width: 767px) {
 	#container {
 		width:470px;
 	}

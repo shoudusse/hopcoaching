@@ -38,7 +38,7 @@
           <li>Il faut viser la lune, parce qu’au moins, si vous échouez, vous finissez dans les étoiles.<br>
             <span>- Oscar WILDE – Ecrivain</span>
           </li>
-          <li>Quand on ne peut revenir en arrière, on ne doit se préoccuper que de la meilleure façons d’aller de
+          <li>Quand on ne peut revenir en arrière, on ne doit se préoccuper que de la meilleure façon d’aller de
             l’avant.<br>
             <span>- Paolo COELHO – Ecrivain</span>
           </li>

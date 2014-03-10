@@ -20,13 +20,13 @@
       <p>
         Le coaching est mon second métier. J'ai commencé par une formation en base PNL avec l'institut Paul Pyronnet
         que j'ai poursuivi par une formation certifiante de Coach Professionnel avec l'organisme Cap Réussite.
-        Ces formations m'ont permis d'acquérir de nombreux outils du coaching comme: la PNL, l'AT, la CNV, le décodage
+        Ces formations m'ont apporté de nombreux outils du coaching comme: la PNL, l'AT, la CNV, le décodage
         postural etc...<br>
         L’accompagnement de particuliers ou de professionnels dans l’atteinte de
         leurs objectifs me passionne.
       </p>
       <p>
-        Le coaching aide à développer des ressources nouvelles ou mal exploitées et donc a être plus efficace.<br>
+        Le coaching aide à développer des ressources nouvelles ou mal exploitées et donc à être plus efficace.<br>
         L’apprentissage des expériences passées, une prise de conscience de ce que l’on est et de ce que l’on veut
         vraiment favorise l’autonomie et nous permet de déployer notre potentiel et d'atteindre nos objectifs.
       </p>

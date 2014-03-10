@@ -7,9 +7,9 @@
         <li><a href="/"><img src="images/hop-1.png" height="103" width="153" alt="Hop Coaching Lyon"/></a></li>
       </ul>
     </div>
-    <h1>PARTENAIRE DE VOTRE RÉUSSITE !</h1>
+    <h3>PARTENAIRE DE VOTRE RÉUSSITE !</h3>
 
-    <h3>COACHING SUR LYON ET SA RÉGION</h3>
+    <h1>COACHING SUR LYON ET SA RÉGION</h1>
 
     <p>
       Le Coaching est un accompagnement au changement pour un épanouissement dans votre vie personnelle et/ou

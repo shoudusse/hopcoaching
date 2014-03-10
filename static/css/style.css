@@ -202,26 +202,29 @@
 	.about .photo-inner {
 		float:left;
 		/* background:url(../images/photo-inner.png) no-repeat; */
-		width:192px;
+		width:153px;
 		height:100px;
-		padding:12px 0 0 20px;
+		padding:12px 0 0 0;
+        margin-right: 10px;
 	}
 	.about .photo-inner img {
 		/* background-color:#FFF; */
 	}
-	.about h1 {
+	.about h3 {
 		font-weight:900;
 		color:#FFF;
 		line-height:34px;
-		margin-top:8px;
+		margin-top:15px;
         text-align: center;
+        font-size: 26px;
 	}
-	.about h3 {
+	.about h1 {
 		margin-top:10px;
-		font-size:16px;
-		color:#FFF;
+		font-size:18px;
+		color:#B5C9FF;
 		line-height:18px;
         text-align: center;
+        font-weight: bold;
 	}
 	.about p {
 		top: 15px;
@@ -230,7 +233,7 @@
 		font-size:15px;
 		margin-top:50px;
 		margin-bottom: 40px;
-		color:/*profileTextColor*/#B5C9FF;
+		color: #ffffff;
 		font-weight: 400;
 		line-height:20px;
 		text-align: left;

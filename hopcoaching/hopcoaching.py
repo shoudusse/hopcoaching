@@ -94,7 +94,8 @@ def contact():
 
 @error(404)
 def error404(error):
-    redirect('/')
+    response.set_header('location', '/')
+    response.status = 303
 
 if __name__ == '__main__':
     run(host='localhost', port=8181, debug=True)

@@ -1194,11 +1194,11 @@
 	.about {
 		width:410px;
 	}
-	.about h1 {
+	.about h3 {
 		line-height:38px;
 		font-size:30px;
 	}
-	.about h3 {
+	.about h1 {
 		font-size:14px;
 		line-height:14px;
 	}
@@ -1299,11 +1299,11 @@
 		width:420px;
 		display:block;
 	}
-	.about h1 {
+	.about h3 {
 		line-height:38px;
 		font-size:30px
 	}
-	.about h3 {
+	.about h1 {
 		font-size:14px;
 		line-height:14px;
 	}
@@ -1444,12 +1444,12 @@
 		height:100px;
 		padding:12px 0 0 20px;
 	}
-	.about h1 {
+	.about h3 {
 		line-height:38px;
 		font-size:30px;
 		text-align:center;
 	}
-	.about h3 {
+	.about h1 {
 		font-size:14px;
 		line-height:14px;
 		text-align:center;

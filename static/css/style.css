@@ -646,8 +646,8 @@
     }
     .aboutme-photo {
         float: left;
-        width: 192px;
-        height: 100px;
+        width: 173px; /* 153 + 20 */
+        height: 198px; /* 186 + 12 */
         background: url(../images/photo-inner.png) no-repeat;
     }
 
@@ -1359,7 +1359,7 @@
 		/* Aboutme */
 	/*-------------------------------------------------------*/
     .aboutme-intro {
-        width: 400px;
+        width: 300px;
     }
     #ref-id #ref-lists {
         padding-left: 0;

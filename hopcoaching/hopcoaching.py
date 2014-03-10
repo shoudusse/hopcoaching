@@ -4,7 +4,7 @@ import cgi
 import traceback
 
 from os import path
-from bottle import route, view, static_file, request, post, response, redirect, run
+from bottle import route, view, static_file, request, post, response, redirect, run, error
 from smtplib import SMTP
 from email.mime.text import MIMEText
 
@@ -92,5 +92,10 @@ def contact():
         return "Désolé, le message n'a pu être envoyé."
     return "SEND"
 
+@error(404)
+def error404(error):
+    redirect('/')
+
 if __name__ == '__main__':
     run(host='localhost', port=8181, debug=True)
+

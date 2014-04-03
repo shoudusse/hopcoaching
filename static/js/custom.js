@@ -234,7 +234,7 @@ jQuery(document).ready(function(){
             document.getElementById('map'),
             mapOptions
         );
-        var mapTexte = 'Sorina Dumoulin, La Part Dieu 69003 Lyon';
+        var mapTexte = 'Sorina Dumoulin, Lyon Part Dieu 69003 Lyon';
         var marker = new google.maps.Marker({
             position: positionLyon,
             map: map,

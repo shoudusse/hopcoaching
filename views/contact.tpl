@@ -5,7 +5,7 @@
     <h3 class="main-heading"><span>Contact</span></h3>
     <ul>
       <li>Sorina Dumoulin<br/><br/></li>
-      <li>La Part Dieu</li>
+      <li>Lyon Part Dieu</li>
       <li>69003 Lyon</li>
       <li>Email: contact@hop-coaching.com</li>
       <li>Tel: +33 6 63 10 44 41</li>

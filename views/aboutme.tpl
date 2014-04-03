@@ -17,13 +17,12 @@
         L’écoute et l’empathie sont au cœur de chaque rencontre. La tolérance des valeurs et des croyances de l’autre est
         nécessaire pour obtenir son respect et sa considération.
       </p>
-      <p>
-        Le coaching est mon second métier. J'ai commencé par une formation en base PNL avec l'institut Paul Pyronnet
+      <p>L’accompagnement de particuliers ou de professionnels dans l’atteinte de
+        leurs objectifs me passionne.<br>
+        J'ai décidé d'en faire mon métier. J'ai commencé par une formation en base PNL avec l'institut Paul Pyronnet
         que j'ai poursuivi par une formation certifiante de Coach Professionnel avec l'organisme Cap Réussite.
         Ces formations m'ont apporté de nombreux outils du coaching comme: la PNL, l'AT, la CNV, le décodage
-        postural etc...<br>
-        L’accompagnement de particuliers ou de professionnels dans l’atteinte de
-        leurs objectifs me passionne.
+        postural etc...
       </p>
       <p>
         Le coaching aide à développer des ressources nouvelles ou mal exploitées et donc à être plus efficace.<br>

@@ -2,7 +2,7 @@
   <h3 class="main-heading">Qui suis-je?</h3>
 
   <div class="aboutme-header">
-    <div class="aboutme-intro"><span>Sorina Dumoulin</span><br>Formatrice & Coach Professionnelle<br>Partenaire de votre réussite</div>
+    <div class="aboutme-intro"><span>Sorina Dumoulin</span><br>Formatrice & Coach Emploi<br>Partenaire de votre réussite</div>
     <div class="aboutme-photo"><img src="images/photo-aboutme4.jpg" alt="photo du coach" title="photo du coach"></div>
     <div class="aboutme-text">
       <p>

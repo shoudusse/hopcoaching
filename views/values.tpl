@@ -12,7 +12,7 @@
         Ainsi, je m’engage, dans le cadre de votre coaching, grâce à des outils, une écoute active et la technique de «
         l’art du questionnement » à vous faire prendre conscience de ce qui compte vraiment pour vous, stimuler votre
         motivation et déclencher l’action. Vous deviendrez alors auteur et acteur de votre évolution. Vous trouverez des
-        solutions qui vous sont propres, vous permettant d’atteindre vos objectifs.
+        solutions qui vous sont propres, vous permettant d’atteindre vos buts.
       </p>
 
       <p>

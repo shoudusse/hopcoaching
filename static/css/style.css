@@ -210,17 +210,17 @@
 	.about .photo-inner img {
 		/* background-color:#FFF; */
 	}
-	.about h3 {
+	.about h1 {
 		font-weight:900;
 		color:#FFF;
 		line-height:34px;
 		margin-top:15px;
         text-align: center;
-        font-size: 26px;
+        font-size: 24px;
 	}
-	.about h1 {
+	.about h3 {
 		margin-top:10px;
-		font-size:18px;
+		font-size:20px;
 		color:#B5C9FF;
 		line-height:18px;
         text-align: center;
@@ -231,7 +231,7 @@
         left: 20px;
         width: 100%;
 		font-size:15px;
-		margin-top:50px;
+		margin-top:40px;
 		margin-bottom: 40px;
 		color: #ffffff;
 		font-weight: 400;
@@ -264,6 +264,7 @@
 		border-radius: 3px;
 		-moz-border-radius: 3px;
 		-webkit-border-radius: 3px;
+        font-size: 18px;
 	}
 	.personal-info li span {
 		width:300px;
@@ -1194,11 +1195,11 @@
 	.about {
 		width:410px;
 	}
-	.about h3 {
+	.about h1 {
 		line-height:38px;
 		font-size:25px;
 	}
-	.about h1 {
+	.about h3 {
 		font-size:14px;
 		line-height:14px;
 	}
@@ -1306,11 +1307,11 @@
 		width:420px;
 		display:block;
 	}
-	.about h3 {
+	.about h1 {
 		line-height:38px;
 		font-size:30px
 	}
-	.about h1 {
+	.about h3 {
 		font-size:14px;
 		line-height:14px;
 	}
@@ -1451,12 +1452,12 @@
 		height:100px;
 		padding:12px 0 0 20px;
 	}
-	.about h3 {
+	.about h1 {
 		line-height:38px;
 		font-size:30px;
 		text-align:center;
 	}
-	.about h1 {
+	.about h3 {
 		font-size:14px;
 		line-height:14px;
 		text-align:center;

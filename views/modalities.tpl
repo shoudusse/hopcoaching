@@ -19,13 +19,17 @@
         <div class="timelineUnit">
           <h4>La durée du coaching</h4>
 
-          <p>Elle est variable en fonction de l’objectif que vous voulez atteindre et du rythme auquel vous souhaitez
+          <p>
+            Elle est variable en fonction de l’objectif que vous voulez atteindre et du rythme auquel vous souhaitez
             vous investir dans votre démarche de coaching.
-            Le rythme du coaching peut être hebdomadaire ou mensuel.</p>
+            Le rythme du coaching peut être hebdomadaire ou mensuel.
+          </p>
 
-          <p>Le coaching peut être ponctuel (1 à 3 séances) pour préparer un entretien d’embauche par exemple ou de plus
-            longue durée (3 à 6 mois) pour un accompagnement plus personnel comme la gestion du stress ou l'amélioration
-            de la confiance en soi.</p>
+          <p>
+            Le coaching peut être ponctuel (1 à 3 séances) pour préparer un entretien d’embauche par exemple ou de plus
+            longue durée (3 à 6 mois) pour un accompagnement plus personnel comme la reconversion professionelle ou
+            l'amélioration de la confiance en soi.
+          </p>
         </div>
       </li>
       <li>

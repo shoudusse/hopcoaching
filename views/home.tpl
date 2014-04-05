@@ -12,10 +12,9 @@
     <h3>LYON ET SA RÉGION</h3>
 
     <p>
-      Le Coaching est un accompagnement au changement pour un épanouissement dans votre vie personnelle et
-      professionnelle.<br/><br/>
+      Le Coaching emploi est un accompagnement au changement en situation de transition professionnelle.<br/><br/>
       L’objectif est de vous aider à trouver des solutions réalistes et compatibles avec vos motivations et intérêts
-      personnels afin d'atteindre votre but.<br/><br/>
+      personnels afin de définir un projet en cohérence avec vos aspirations et le marché du travail.<br/><br/>
       Vous révélerez vos talents, donnerez du sens à votre engagement et développerez une dynamique positive de réussite.
     </p>
   </div>
@@ -28,7 +27,7 @@
     <li><span>- Recherche d'emploi et entretiens d'embauche</span></li>
     <li><span>- Création d'activités / Projets professionnels</span></li>
     <li><span>- Préparation aux oraux de concours</span></li>
-    <li><span>- Développement personnel et motivation<br/><br/></span></li>
+    <li><span>- Développement de votre réseau<br/><br/></span></li>
     <li><label>Avantages :</label></li>
     <li><span>- Réfléchir sur l’ensemble de vos potentialités</span></li>
     <li><span>- Définir clairement vos objectifs en fonction de &nbsp;&nbsp;ce qui est important pour vous</span></li>

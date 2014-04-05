@@ -10,7 +10,7 @@
 <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
 <link rel="stylesheet" type="text/css"
       href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,800,700,400italic|PT+Serif:400,400italic"/>
-<link rel="shortcut icon" sizes="16x16 32x32 48x48 64x64" href="images/favicon.ico">
+<link rel="shortcut icon" sizes="16x16 32x32 48x48 64x64" href="images/favicon.png">
 <!--[if IEMobile]>
 <link rel="stylesheet" type="text/css" href="css/iemobile.css"/>
 <![endif]-->

@@ -30,7 +30,7 @@
       </p>
       <p>
         J'ai réalisé mon memoire de certification au métier de coach sur :<br/>
-        “le Coaching comme Outil d'Accompagnement dans la Reconversion Professionnelle”.
+        “Le Coaching comme Outil d'Accompagnement dans la Reconversion Professionnelle”.
       </p>
       <p>
         Le coaching aide à développer des ressources nouvelles ou mal exploitées et donc à être plus efficace.<br>

@@ -21,7 +21,7 @@
         L’accompagnement de particuliers ou de professionnels dans l’atteinte de
         leurs objectifs me passionne.<br>
         J'ai décidé d'en faire mon métier. J'ai commencé par une formation en base PNL avec l'institut Paul Pyronnet
-        que j'ai poursuivi par une formation certifiante de Coaching avec l'organisme de formation Cap Réussite.
+        que j'ai poursuivi par une formation certifiante de Coaching avec l'organisme de formation Cap Réussite.<br/>
         Ces formations m'ont apporté de nombreux outils du coaching comme:
         la <a target="_blank" title="PNL" href="http://fr.wikipedia.org/wiki/Programmation_neuro-linguistique">PNL</a>,
         l'<a target="_blank" title="AT" href="http://fr.wikipedia.org/wiki/Analyse_transactionnelle">AT</a>,

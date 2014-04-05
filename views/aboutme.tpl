@@ -23,9 +23,9 @@
         J'ai décidé d'en faire mon métier. J'ai commencé par une formation en base PNL avec l'institut Paul Pyronnet
         que j'ai poursuivi par une formation certifiante de Coach Professionnel avec l'organisme Cap Réussite.
         Ces formations m'ont apporté de nombreux outils du coaching comme:
-        la <a target="_blank" href="http://fr.wikipedia.org/wiki/Programmation_neuro-linguistique">PNL</a>,
-        l'<a target="_blank" href="http://fr.wikipedia.org/wiki/Analyse_transactionnelle">AT</a>,
-        la <a target="_blank" href="http://fr.wikipedia.org/wiki/Communication_non_violente_(Rosenberg)">CNV</a>, le décodage
+        la <a target="_blank" title="PNL" href="http://fr.wikipedia.org/wiki/Programmation_neuro-linguistique">PNL</a>,
+        l'<a target="_blank" title="AT" href="http://fr.wikipedia.org/wiki/Analyse_transactionnelle">AT</a>,
+        la <a target="_blank" title="CNV" href="http://fr.wikipedia.org/wiki/Communication_non_violente_(Rosenberg)">CNV</a>, le décodage
         postural etc...
       </p>
       <p>

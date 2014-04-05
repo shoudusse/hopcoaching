@@ -7,7 +7,7 @@
         <li><a href="/"><img src="images/hop-1.png" height="103" width="153" alt="Hop Coaching Lyon"/></a></li>
       </ul>
     </div>
-    <h1>COACHING <br/>EMPLOI & PROJETS DE VIE</h1>
+    <h1>COACHING<br/>EMPLOI ET CARRIÈRE</h1>
 
     <h3>LYON ET SA RÉGION</h3>
 

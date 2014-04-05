@@ -13,7 +13,7 @@ PROJECT_PATH = path.dirname(path.dirname(path.abspath(__file__)))
 @route('/')
 @view('index.html')
 def index():
-    title = "Hop Coaching, Coaching sur Lyon et sa Région"
+    title = "Coaching emploi Lyon et reconversion professionnelle"
     context = {
         'title': title,
         'activetab': 'profile',

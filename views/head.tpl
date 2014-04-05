@@ -1,6 +1,6 @@
 <title>{{ title }}</title>
 <meta name="description"
-      content="Coaching et Accompagnement Orienté Solutions sur Lyon et sa Région. Recherche d'emploi et entretiens d'embauche, Gestion du temps et du stress, Développement personnel">
+      content="Hop Coaching vous accompagne dans votre recherche d'emploi, entretiens d'embauche et reconversion professionnelle pour mieux gérer votre temps et votre stress.">
 <meta name="keywords"
       content="coaching, coachings, lyon, rhone, alpes, recherche, emploi, entretien, entretiens, gestion, temps, développement, personnel, stress, préparation, oraux, concours, motivation, épanouissement, vie, personnel, personnelle, professionnelle">
 <meta http-equiv="content-type" content="text/html; charset=utf-8">

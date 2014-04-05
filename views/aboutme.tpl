@@ -17,12 +17,20 @@
         L’écoute et l’empathie sont au cœur de chaque rencontre. La tolérance des valeurs et des croyances de l’autre est
         nécessaire pour obtenir son respect et sa considération.
       </p>
-      <p>L’accompagnement de particuliers ou de professionnels dans l’atteinte de
+      <p>
+        L’accompagnement de particuliers ou de professionnels dans l’atteinte de
         leurs objectifs me passionne.<br>
         J'ai décidé d'en faire mon métier. J'ai commencé par une formation en base PNL avec l'institut Paul Pyronnet
         que j'ai poursuivi par une formation certifiante de Coach Professionnel avec l'organisme Cap Réussite.
-        Ces formations m'ont apporté de nombreux outils du coaching comme: la PNL, l'AT, la CNV, le décodage
+        Ces formations m'ont apporté de nombreux outils du coaching comme:
+        la <a target="_blank" href="http://fr.wikipedia.org/wiki/Programmation_neuro-linguistique">PNL</a>,
+        l'<a target="_blank" href="http://fr.wikipedia.org/wiki/Analyse_transactionnelle">AT</a>,
+        la <a target="_blank" href="http://fr.wikipedia.org/wiki/Communication_non_violente_(Rosenberg)">CNV</a>, le décodage
         postural etc...
+      </p>
+      <p>
+        J'ai réalisé mon memoire de certification au métier de coach sur :<br/>
+        “le Coaching comme outil d'accompagnement dans la reconversion professionnelle”.
       </p>
       <p>
         Le coaching aide à développer des ressources nouvelles ou mal exploitées et donc à être plus efficace.<br>

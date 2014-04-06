@@ -95,7 +95,7 @@
     h1 {font-size: 26px;}
 	h2 {font-size: 30px;}
 	h3 {font-size: 20px;}
-	h4 {font-size: 16px;}
+	h4 {font-size: 14px;}
 	h5 {font-size: 13px;}
 	h6 {font-size: 12px;}
 
@@ -231,7 +231,7 @@
         left: 20px;
         width: 100%;
 		font-size:15px;
-		margin-top:40px;
+		margin-top:60px;
 		margin-bottom: 40px;
 		color: #ffffff;
 		font-weight: 400;
@@ -246,7 +246,7 @@
 		width:310px;
 		min-height:230px;
 		margin-left:10px;
-		background:url(../images/personal-info-sep.png) no-repeat left 50px;
+		background:url(../images/personal-info-sep.png) repeat-y left 0px;
 		padding:20px 0 0 20px;
 		list-style: none;
 		color:/*profileTextColor*/#B5C9FF;
@@ -278,9 +278,9 @@
 		height:100px;
 		background-color:#ededed;
 		position:relative;
-		width: 600px;
-		padding-left: 130px;
-		padding-right: 130px;
+		width: 760px;
+		padding-left: 50px;
+		padding-right: 50px;
 	}
 	.tabs {
 		height:116px;

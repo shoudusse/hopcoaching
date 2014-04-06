@@ -32,6 +32,7 @@
     <li><span>- Réfléchir sur l’ensemble de vos potentialités</span></li>
     <li><span>- Définir clairement vos objectifs en fonction de &nbsp;&nbsp;ce qui est important pour vous</span></li>
     <li><span>- Etre plus efficace et passer à l’action pour &nbsp;&nbsp;obtenir des résultats durables</span></li>
+    <li><span>- Trouver plus rapidement l'emploi ou la &nbsp;&nbsp;formation qui vous convient</span></li>
   </ul>
   <!-- /Block droite section -->
 </div>

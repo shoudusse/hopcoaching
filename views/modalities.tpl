@@ -4,7 +4,7 @@
     <ol class="timeline">
       <li>
         <div class="timelineUnit">
-          <h4>Entretien préliminaire gratuit d'une heure qui permet de</h4>
+          <h4>Entretien préliminaire gratuit qui permet de</h4>
 
           <p>
           <ul class="modality-topic">

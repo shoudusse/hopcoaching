@@ -13,13 +13,17 @@
       <p>
         Ces différentes expériences en France et à l’étranger (USA, Canada, Europe) m’ont permis de développer un sens
         aigu de la communication et la faculté de développer rapidement et durablement des relations de confiance avec
-        mes interlocuteurs.<br>
+        mes interlocuteurs.
+      </p>
+      <p>
         L’écoute et l’empathie sont au cœur de chaque rencontre. La tolérance des valeurs et des croyances de l’autre est
         nécessaire pour obtenir son respect et sa considération.
       </p>
       <p>
         L’accompagnement de particuliers ou de professionnels dans l’atteinte de
-        leurs objectifs me passionne.<br>
+        leurs objectifs me passionne.
+      </p>
+      <p>
         J'ai décidé d'en faire mon métier. J'ai commencé par une formation en base PNL avec l'institut Paul Pyronnet
         que j'ai poursuivi par une formation certifiante de Coaching avec l'organisme de formation Cap Réussite.<br/>
         Ces formations m'ont apporté de nombreux outils du coaching comme:

@@ -9,14 +9,34 @@ from smtplib import SMTP
 from email.mime.text import MIMEText
 
 PROJECT_PATH = path.dirname(path.dirname(path.abspath(__file__)))
+TITLE = "Coaching emploi Lyon et reconversion professionnelle"
 
 @route('/')
 @view('index.html')
 def index():
-    title = "Coaching emploi Lyon et reconversion professionnelle"
+    title = TITLE
+    print request.fullpath
     context = {
         'title': title,
         'activetab': 'profile',
+    }
+    return context
+
+@route('/legals')
+@view('mentions.tpl')
+def blog():
+    title = "%s | Mentions Légales" % TITLE
+    context = {
+        'title': title,
+    }
+    return context
+
+@route('/blog')
+@view('blog.tpl')
+def blog():
+    title = "%s | Le Blog" % TITLE
+    context = {
+        'title': title,
     }
     return context
 

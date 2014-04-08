@@ -1,12 +1,6 @@
 <nav class="menu">
   <ul class="tabs">
-    <li class="tmenu" id="profile-li"><a \\
-%if source == 'intern':
-href="#profile"\\
-% else:
-href="/?activetab=profile"\\
-%end
-class="tab-profile"><i>B</i>Accueil</a></li>
+    <li class="tmenu" id="profile-li"><a href="/#profile" class="tab-profile"><i>B</i>Accueil</a></li>
     <li class="tmenu" id="modalities-li"><a \\
 %if source == 'intern':
 href="#modalities"\\

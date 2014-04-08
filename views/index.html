@@ -18,7 +18,7 @@
       <!-- /Home -->
 
       <!-- Menu -->
-      % include('nav.tpl')
+      % include('nav.tpl', source='intern')
       <!-- /Menu -->
 
       <!-- Modalités -->
@@ -62,11 +62,6 @@
           tabActiveClass: 'active',
           defaultTab: '#{{ activetab }}-li'
         });
-
-        $('#mentions-lnk').click( function() {
-          $content.easytabs('select', '#mentions');
-         });
-
         $('#contact-lnk').click( function() {
           $content.easytabs('select', '#contact');
          });

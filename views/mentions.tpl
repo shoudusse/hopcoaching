@@ -1,4 +1,4 @@
-% rebase fix-base.tpl
+% rebase('fix-base.tpl')
 <section id="mentions">
   <div class="value-section">
     <h3 class="main-heading">Mentions Légales</h3>

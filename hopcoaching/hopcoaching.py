@@ -5,7 +5,7 @@ import traceback
 
 from os import path
 from bottle import route, view, static_file, request, get, post, response, redirect, run, error
-from smtplib import SMTP
+from smtplib import SMTP, SMTPException
 from email.mime.text import MIMEText
 
 PROJECT_PATH = path.dirname(path.dirname(path.abspath(__file__)))
@@ -15,11 +15,12 @@ TITLE = "Coaching emploi Lyon et reconversion professionnelle"
 @view('index.html')
 def index():
     title = TITLE
-    print request.fullpath
+    activetab = request.query.activetab or 'profile'
     context = {
         'title': title,
-        'activetab': 'profile',
+        'activetab': activetab,
     }
+    print activetab
     return context
 
 @route('/legals')
@@ -106,7 +107,7 @@ def contact():
         s.quit()
 
         thanks = "Merci pour le message, %s!" % cgi.escape(name)
-    except Exception:
+    except SMTPException:
         traceback.print_exc()
         response.status = 500
         return "Désolé, le message n'a pu être envoyé."

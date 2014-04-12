@@ -28,7 +28,7 @@ href="#contact"\\
 % else:
 href="/?activetab=contact"\\
 %end
-><i>&#x21;</i>Contact</a></li>
+><i>!</i>Contact</a></li>
   </ul>
   <a class="prev" id="menu-prev" href="#">&#xe073;</a>
   <a class="next" id="menu-next" href="#">&#xe076;</a>

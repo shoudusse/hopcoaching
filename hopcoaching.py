@@ -8,7 +8,7 @@ from bottle import route, view, static_file, request, get, post, response, redir
 from smtplib import SMTP, SMTPException
 from email.mime.text import MIMEText
 
-PROJECT_PATH = path.dirname(path.dirname(path.abspath(__file__)))
+PROJECT_PATH = path.dirname(path.abspath(__file__))
 TITLE = "Coaching emploi Lyon et reconversion professionnelle"
 
 @route('/')
@@ -51,6 +51,7 @@ def server_static(filepath):
 
 @route('/images/<filepath:path>')
 def server_static(filepath):
+    print "demande: %s envoye: %s " % (filepath, path.join(PROJECT_PATH, 'static'))
     return static_file(filepath, root=path.join(PROJECT_PATH, 'static/images'))
 
 @route('/js/<filepath:path>')

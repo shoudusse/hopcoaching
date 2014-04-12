@@ -1,6 +1,6 @@
 import sys, os, bottle
 
-sys.path = ['/var/www/hop-coaching.com/web/hopcoaching/hopcoaching'] + sys.path
+sys.path = ['/var/www/hop-coaching.com/web/hopcoaching'] + sys.path
 os.chdir(os.path.dirname(__file__))
 
 import hopcoaching # This loads your application

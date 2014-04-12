@@ -1,0 +1,6 @@
+Beaker==1.6.4
+bottle==0.12.5
+bottle-cork==0.10
+pycrypto==2.6.1
+python-simplemail==2.0.1
+wsgiref==0.1.2

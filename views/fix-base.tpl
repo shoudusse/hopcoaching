@@ -13,7 +13,7 @@
     <section id="content">
 
      	<!-- Menu -->
-      % include('nav.tpl', source='extern')
+      % include('nav.tpl', source='external')
       <!-- /Menu -->
 
     {{ !base }}

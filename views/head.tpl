@@ -1,4 +1,5 @@
 <title>{{ title }}</title>
+<meta name="language" content="FR">
 <meta name="description"
       content="Hop Coaching vous accompagne dans votre recherche d'emploi, entretiens d'embauche et reconversion professionnelle pour mieux gérer votre temps et votre stress.">
 <meta name="keywords"

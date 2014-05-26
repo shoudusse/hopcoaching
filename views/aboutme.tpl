@@ -4,7 +4,7 @@
   <div class="aboutme-header">
     <div itemscope itemtype="http://schema.org/Person">
       <div class="aboutme-intro">
-        <span itemprop="givenName">Sorina</span> <span itemprop="familyName">Dumoulin</span><br>
+        <span itemprop="name">Sorina Dumoulin</span><br>
         <span itemprop="jobTitle">Formatrice & Coach Emploi<br>Partenaire de votre réussite</span>
       </div> <!-- aboutme-intro -->
         <div class="aboutme-photo">

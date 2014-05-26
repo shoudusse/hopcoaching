@@ -3,7 +3,7 @@
   <div class="about">
     <div class="photo-inner">
       <ul>
-        <li><a href="/"><img src="images/hop-1.png" height="103" width="153" alt="Hop Coaching Lyon"/></a></li>
+        <li><a href="/"><img itemprop="image" src="images/hop-1.png" height="103" width="153" alt="Hop Coaching Lyon"/></a></li>
         <li><a href="/"><img src="images/hop-1.png" height="103" width="153" alt="Hop Coaching Lyon"/></a></li>
       </ul>
     </div>

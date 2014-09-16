@@ -4,9 +4,15 @@
   <div class="contact-info">
     <h3 class="main-heading"><span>Contact</span></h3>
     <ul>
-      <li>Sorina Dumoulin<br/><br/></li>
-      <li>Lyon Part Dieu</li>
-      <li>69003 Lyon</li>
+      <li id="contact-name-item">Sorina Dumoulin</li>
+      <li id="contact-sites-item">
+        <p>Lyon:</p>
+        <ul id="sites-list">
+          <li>69002 Perrache</li>
+          <li>69003 La Guillotière</li>
+          <li>69006 Charpennes</li>
+        </ul>
+      </li>
       <li>Email: <span itemprop="email">contact@hop-coaching.com</span></li>
       <li>Tel: <span itemprop="telephone">+33 6 63 10 44 41</span></li>
       <li>Site Web: <a href="http://hop-coaching.com"><span itemprop="url">hop-coaching.com</span></a></li>

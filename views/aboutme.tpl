@@ -45,8 +45,8 @@
         </p>
           <p>
           Le coaching aide à développer des ressources nouvelles ou mal exploitées et donc à être plus efficace.<br>
-          L’apprentissage des expériences passées, une prise de conscience de ce que l’on est et de ce que l’on veut
-          vraiment favorise l’autonomie et nous permet de déployer notre potentiel et d'atteindre nos objectifs.
+          La capitalisation sur nos expériences passées, une prise de conscience de ce que l’on est et de ce que l’on veut
+          vraiment favorisent l’autonomie et nous permet de déployer notre potentiel et d'atteindre nos objectifs.
         </p>
         </div> <!-- aboutme-text -->
       </div> <!-- schema.org Person -->

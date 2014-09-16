@@ -166,13 +166,15 @@
         margin: 0 2px 0 0;
     }
 	.socialicons li a  {
-		font-family: 'icomoon',sans-serif;
 		font-size: 16px;
 		display: block;
 		padding: 6px 8px;
 		background-color:#222;
 		color: #FFF;
 	}
+    .socialicons .icomoon {
+        font-family: 'icomoon',sans-serif;
+    }
 	.socialicons li a:hover  {
 		color:/*mainColor*/#5080FF;
 	}
@@ -185,6 +187,7 @@
 		background-color:#222;
 		color:#FFF;
 	}
+
 	/*-------------------------------------------------------*/
 		/* Profile Section */
 	/*-------------------------------------------------------*/
@@ -384,6 +387,12 @@
         font-weight: bold;
         font-size: 20px;
     }
+    .timeline li .timelineUnit h2 {
+		line-height:24px;
+		font-size:20px;
+        font-weight: bold;
+		color: #444;
+	}
 	.timeline li .timelineUnit h4 {
 		line-height:24px;
 		font-size:20px;
@@ -417,6 +426,135 @@
     .timelineUnit a {
         text-decoration: underline;
     }
+    
+    
+    /* blog Section */
+	.blog-section {
+		width:800px;
+		padding-right:60px;
+	}
+	.blog {
+		margin-bottom: 30px;
+        list-style: none;
+        margin-left: 20px;
+	}
+	.blog li {
+		margin-bottom:20px;
+	}
+	.blog li .blogUnit {
+		line-height:17px;
+		margin-left:0;
+        margin-bottom: 40px;
+		color: #444;
+		font-size:13px;
+		border-left:1px solid /*mainColor*/#5080FF;
+		padding-left:15px;
+	}
+
+    .blog .blogUnit li {
+        margin-bottom: 3px;
+    }
+
+	.blog li .blogUnit .blogDate {
+		line-height:17px;
+		color:/*mainColor*/#5080FF;
+		font-size:14px;
+		margin-left:10px;
+		font-weight: normal;
+		padding:2px 6px;
+		float:right;
+	}
+
+    .blogUnit .author {
+        display: block;
+        line-height:18px;
+		font-size:13px;
+		color: #999;
+        margin-bottom: 20px;
+    }
+
+    .blog-section h3 {
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    /* Première niveau de titre d'un billet */
+
+     .blog li .blogUnit h1 {
+		line-height:26px;
+		font-size:26px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+	}
+
+    .blog li .blogUnit h2 {
+		line-height:24px;
+		font-size:18px;
+        font-weight: bold;
+		color: #444;
+        margin-top: 15px;
+	}
+    .blog li .blogUnit h3 {
+        margin-top: 10px;
+		line-height:18px;
+		font-size:13px;
+		color: #999;
+	}
+    /* Titre du billet */
+	.blog li .blogUnit h4 {
+		line-height:26px;
+		font-size:20px;
+        font-weight: bold;
+		color: #444;
+	}
+	.blog li .blogUnit h5 {
+		line-height:18px;
+		font-size:13px;
+		color: #999;
+	}
+	.blog li .blogUnit p {
+		color: #666;
+		font-size:16px;
+		margin-top:5px;
+        line-height: 1.5;
+	}
+
+    .blogUnit em {
+        font-style: italic;
+    }
+
+    .blog .modality-topic {
+        padding-left: 10px;
+        list-style: circle;
+    }
+
+    .blog .modality-topic li {
+        margin-bottom: 0;
+        line-height: 1.5;
+        font-size: 16px;
+        color: #666666;
+    }
+
+    .blogUnit a {
+        text-decoration: underline;
+    }
+
+    .blogUnit ul {
+        padding-left: 25px;
+        list-style: disc;
+    }
+
+    .blogUnit ul ul {
+        padding-left: 30px;
+        list-style: circle;
+    }
+
+    .blogUnit blockquote {
+        padding-left: 15px;
+        border-left: 1px solid /*mainColor*/#5080FF;
+        margin-bottom: 30px;
+}
+
 
 	/* Skills Section */
 	.skills-section {
@@ -1017,6 +1155,18 @@
 	}
     .contact-form .main-heading span {
         line-height: 2;
+    }
+    #sites-list {
+        list-style: disc;
+        margin: 0;
+        border: 0;
+    }
+    #contact-name-item {
+        line-height: 50px;
+        font-weight: bold;
+    }
+    #contact-sites-item {
+        height: 100px;
     }
 	/* Google map */
 		#map {

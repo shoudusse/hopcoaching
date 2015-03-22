@@ -11,6 +11,7 @@
           <li>69002 Perrache</li>
           <li>69003 La Guillotière</li>
           <li>69006 Charpennes</li>
+          <li>69009 Gorge de Loup</li>
         </ul>
       </li>
       <li>Email: <span itemprop="email">contact@hop-coaching.com</span></li>

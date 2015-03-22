@@ -40,7 +40,7 @@
           le décodage postural etc...
         </p>
           <p>
-          J'ai réalisé mon memoire de certification au métier de coach sur :<br/>
+          J'ai réalisé mon mémoire de certification au métier de coach sur :<br/>
           “Le Coaching comme Outil d'Accompagnement dans la Reconversion Professionnelle”.
         </p>
           <p>
@@ -68,6 +68,7 @@
       <ul>
         <li>Camas Formation</li>
         <li>CESI Entreprises</li>
+        <li>Institut G4</li>
       </ul>
     </div>
     </div>

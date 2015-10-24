@@ -10,7 +10,7 @@
     <h1>COACHING<br/>EMPLOI ET CARRIÈRE</h1>
 
     <h3>LYON ET SA RÉGION</h3>
-
+    <div class="slogan"><span>H</span>umain, <span>O</span>ptimiste & <span>P</span>rofessionnel</div>
     <p>
       Le Coaching emploi ou de carrière est un accompagnement au changement en situation de transition professionnelle.<br/><br/>
       L’objectif est de vous aider à trouver des solutions réalistes et compatibles avec vos valeurs et vos motivations

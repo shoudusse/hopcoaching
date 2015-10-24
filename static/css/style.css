@@ -233,12 +233,23 @@
         font-weight: bold;
      }
 
+     .about .slogan {
+     	margin-top: 20px;
+     	color: #fff;
+     	font-size: 20px;
+     }
+
+     .about .slogan span {
+     	color: #B5C9FF;
+     	font-size: 20px;
+     }
+
 	.about p {
 		top: 15px;
         left: 20px;
         width: 100%;
 		font-size:15px;
-		margin-top:60px;
+		margin-top:30px;
 		margin-bottom: 40px;
 		color: #ffffff;
 		font-weight: 400;

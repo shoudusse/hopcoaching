@@ -14,7 +14,7 @@
           <li>69009 Gorge de Loup</li>
         </ul>
       </li>
-      <li>Email: <span itemprop="email">contact@hop-coaching.com</span></li>
+      <li class="second-part">Email: <span itemprop="email"><a href="mailto:contact@hop-coaching.com">contact@hop-coaching.com</a></span></li>
       <li>Tel: <span itemprop="telephone">+33 6 63 10 44 41</span></li>
       <li>Site Web: <a href="http://hop-coaching.com"><span itemprop="url">hop-coaching.com</span></a></li>
     </ul>

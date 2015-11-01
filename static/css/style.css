@@ -1175,6 +1175,9 @@
         margin: 0;
         border: 0;
     }
+    .second-part {
+    	margin-top: 10px
+    }
     #contact-name-item {
         line-height: 50px;
         font-weight: bold;

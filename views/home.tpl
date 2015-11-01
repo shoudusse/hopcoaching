@@ -25,7 +25,7 @@
     <li><label>Accompagnement en :</label></li>
     <li><span>- Orientation scolaire et professionnelle</span></li>
     <li><span>- Recherche d'emploi et entretiens d'embauche</span></li>
-    <li><span>- Création d'activités / Projets professionnels</span></li>
+    <li><span>- Création d'activité / Projet professionnel</span></li>
     <li><span>- Préparation aux oraux de concours</span></li>
     <li><span>- Développement de votre réseau<br/><br/></span></li>
     <li><label>Avantages :</label></li>

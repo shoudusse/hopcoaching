@@ -1344,13 +1344,6 @@
 /*-------------------------------------------------------*/
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
-@media only screen and (min-width: 960px) and (max-width: 1950px) {
-	.contact-form {
-		width:420px;
-	}
-}
-
-/* Tablet Portrait size to standard 960 (devices and browsers) */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 	#container {
 		width:750px;
@@ -1773,7 +1766,7 @@
 	}
 	.contact-form {
 		margin-top:20px;
-		width:280px;
+		width:250px;
 	}
 	.contact-info, .contact-form {
 		padding:0 10px;
@@ -1783,6 +1776,7 @@
         margin-left: 5px;
     }
 }
+
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (max-moz-device-pixel-ratio: 2) {
 
 	.tabs li.active {

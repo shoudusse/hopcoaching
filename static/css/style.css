@@ -13,14 +13,14 @@
 	}
 
 		/* Font face */
-	@font-face { 
+	@font-face {
 	    font-family: 'icomoon';
 	    src: url('../fonts/icomoon/icomoon.eot');
 	    src: url('../fonts/icomoon/icomoon.eot?#iefix') format('embedded-opentype'),
 	         url('../fonts/icomoon/icomoon.svg#icomoon') format('svg'),
 	         url('../fonts/icomoon/icomoon.woff') format('woff'),
 	         url('../fonts/icomoon/icomoon.ttf') format('truetype');
-	}	       
+	}
 
 	/*-------------------------------------------------------*/
 		/* Wrap */
@@ -440,8 +440,8 @@
     .timelineUnit a {
         text-decoration: underline;
     }
-    
-    
+
+
     /* blog Section */
 	.blog-section {
 		width:800px;
@@ -594,7 +594,7 @@
 		width:123px;
 		height:14px;
 		float:left;
-	}	
+	}
 	.skills li .rating > span {
 		opacity: 0.3;
 		height:12px;
@@ -702,7 +702,7 @@
 	}
 	#portfolio-list img {
 		background-color:#FFF;
-		height:120px; 
+		height:120px;
 		width:180px;
 	}
 	#portfolio-list li:hover .title {
@@ -721,7 +721,7 @@
 	}
 
 	/* Filter menu */
-	
+
 	.cats-filter {
 		border-bottom:1px solid #ededed;
 		overflow:hidden;
@@ -923,10 +923,10 @@
     .blog-entry a:hover img {
     	opacity: 1;
     	filter:alpha(opacity=100);
-	}	
+	}
     .blog-entry > a:hover h3 {
     	color:/*mainColor*/#5080FF;
-	}	
+	}
 
 	/* Entry Date */
     .blog-entry .entry-date {
@@ -942,7 +942,7 @@
     	display: block;
     	float: left;
     	border-right:1px solid #FFF;
-    	padding-right: 10px; 
+    	padding-right: 10px;
     	color: #fff;
 	}
     .blog-entry .entry-date .month-year {
@@ -964,13 +964,13 @@
 		margin-bottom: 15px;
 	}
 
-	/* Blog Sidebar */	
+	/* Blog Sidebar */
 	.blog-sidebar {
 		width: 260px;
 		float: left;
 		margin-left:30px;
 	}
-	/* Blog Single */	
+	/* Blog Single */
     .blog-single {
     	position: relative;
     	background-color:#fff;
@@ -978,7 +978,7 @@
     .blog-single h3,.blog-single p {
 		padding-left:0 !important;
 	}
-	/* Comments box */	
+	/* Comments box */
 	.comments-list {
 		margin-bottom: 30px;
 	}
@@ -1337,7 +1337,7 @@
 		-moz-transition-property:-moz-transform, opacity;
 		transition-property:transform, opacity;
 	}
-	
+
 
 /*-------------------------------------------------------*/
 	/* Media Queries */
@@ -1452,7 +1452,7 @@
 	}
 	/*-------------------------------------------------------*/
 		/* Top Section */
-	/*-------------------------------------------------------*/	
+	/*-------------------------------------------------------*/
 	/* Logo */
 	#logo h2 {
 		font-size:0;
@@ -1573,12 +1573,12 @@
 		margin-top:20px;
 		width:420px;
 	}
-	
+
 
 }
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
-	
+
 	#container {
 		width:300px;
 		margin-top:10px;
@@ -1760,7 +1760,7 @@
 	/*-------------------------------------------------------*/
 		/* Contact */
 	/*-------------------------------------------------------*/
-	
+
 	.contact-info {
 		width:280px;
 	}

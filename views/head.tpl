@@ -10,7 +10,7 @@
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
 <link rel="stylesheet" type="text/css"
-      href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,800,700,400italic|PT+Serif:400,400italic"/>
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,800,700,400italic|PT+Serif:400,400italic"/>
 <link rel="shortcut icon" sizes="16x16 32x32 48x48 64x64" href="images/favicon.png">
 <!--[if IEMobile]>
 <link rel="stylesheet" type="text/css" href="css/iemobile.css"/>
@@ -21,7 +21,7 @@
 <script type="text/javascript" src="js/respond.min.js"></script>
 <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
 <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>
 <script type="text/javascript" src="js/jquery-ui-map.js"></script>
 <script type="text/javascript" src="js/jquery.carouFredSel.js"></script>
 <script type="text/javascript" src="js/plugins.js"></script>

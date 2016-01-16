@@ -46,10 +46,11 @@
         <div class="timelineUnit">
           <h4>Tarif du coaching</h4>
 
-          <p>Sur devis, <a id="contact-lnk">me consulter</a>.</p>
+          <p><a id="contact-lnk">Me consulter</a></p>
+          <p>70€ la séance d'1 heure. </p>
 
           <p>
-            Prix préférentiel pour les étudiants et demandeurs d’emploi.</p>
+            Tarif préférentiel de 50€ pour les étudiants et demandeurs d’emploi.</p>
 
           <p>Le paiement s’effectue à la séance pour les particuliers et selon les conditions contractuelles pour les
             entreprises et institutions.</p>

@@ -798,11 +798,15 @@
     .aboutme-intro span {
         font-weight: bold;
     }
+
+    .aboutme-intro span.blue {
+        color: #5080ff;
+    }
+
     .aboutme-photo {
         float: left;
         width: 173px; /* 153 + 20 */
         height: 198px; /* 186 + 12 */
-        background: url(../images/photo-inner.png) no-repeat;
     }
 
     .aboutme-photo img {

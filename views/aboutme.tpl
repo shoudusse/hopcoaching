@@ -4,12 +4,12 @@
   <div class="aboutme-header">
     <div itemscope itemtype="http://schema.org/Person">
       <div class="aboutme-intro">
-        <span itemprop="name">Sorina Dumoulin</span><br>
-        <span itemprop="jobTitle">Formatrice & Coach Emploi<br>Partenaire de votre réussite</span>
+        <span class="blue" itemprop="name">Sorina Dumoulin</span><br>
+        <span class="blue" itemprop="jobTitle">Formatrice & Coach Emploi</span><br><span>Partenaire de votre réussite</span>
       </div> <!-- aboutme-intro -->
         <div class="aboutme-photo">
-          <meta itemprop="image" content="images/photo-aboutme4.jpg" />
-          <img src="images/photo-aboutme4.jpg" alt="photo du coach" title="photo du coach">
+          <meta itemprop="image" content="images/sorina-dumoulin.png" />
+          <img src="images/sorina-dumoulin.png" alt="coach emploi et carriere" title="coach emploi et carriere">
         </div> <!-- aboutme-photo -->
         <div class="aboutme-text">
           <p>

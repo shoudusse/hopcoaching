@@ -144,9 +144,9 @@
 		font-size:0;
 		font-weight:900;
 		color: #444;
-		line-height:50px;
+		line-height:32px;
         width: 264px;
-        background: url("../images/logo-264x50.png");
+        background: url("../images/logo-transparent.png");
         margin-bottom: 3px;
 	}
 	#logo h4 {

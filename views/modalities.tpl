@@ -28,7 +28,7 @@
           <p>
             Le coaching peut être ponctuel (1 à 3 séances) pour préparer un entretien d’embauche par exemple ou de plus
             longue durée (3 à 6 mois) pour un accompagnement plus personnel comme la reconversion professionnelle ou
-            l'amélioration de la confiance en soi.
+            le lancement d'une activité.
           </p>
         </div>
       </li>

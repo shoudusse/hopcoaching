@@ -15,7 +15,7 @@
           <p>
           Je suis diplômée de l'<span itemprop="alumniOf">EBS Paris</span> (European Business School) et titulaire d'un Master II en ingénierie d'affaires
           et négoce international de l'<span itemprop="alumniOf">ISC Paris</span> (Institut Supérieur du Commerce).<br>
-          J'ai 10 ans d'expérience professionnelle dans la vente en B to B, notamment dans le secteur aéronautique et du transport.
+          J'ai 10 ans d'expérience professionnelle dans la vente, notamment dans le secteur aéronautique, du transport et de la formation.
         </p>
           <p>
           Ces différentes expériences en France et à l’étranger (USA, Canada, Europe) m’ont permis de développer un sens

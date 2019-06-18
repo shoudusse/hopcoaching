@@ -27,7 +27,6 @@
 
     <div id="contact-status"></div>
     <form action="/contact" method="post" id="contactform">
-    <div class="g-recaptcha" data-sitekey="6Lddi6kUAAAAAI3o3sqnMESIzAr4iGDn2TkLKDPl"></div>
       <p>
         <label for="name">Nom</label>
         <input type="text" name="name" id="name" class="input">
@@ -54,6 +53,7 @@
           <option value="Autre">Autre</option>
         </select>
       </p>
+      <div class="g-recaptcha" data-sitekey="6Lddi6kUAAAAAI3o3sqnMESIzAr4iGDn2TkLKDPl"></div>
       <input type="submit" name="submit" value="Envoyer votre message" class="button transition">
     </form>
   </div>

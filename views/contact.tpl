@@ -27,6 +27,7 @@
 
     <div id="contact-status"></div>
     <form action="/contact" method="post" id="contactform">
+    <div class="g-recaptcha" data-sitekey="6LeViqkUAAAAAC539kne2uaOumQL7e2gXnkYN8X8"></div>
       <p>
         <label for="name">Nom</label>
         <input type="text" name="name" id="name" class="input">

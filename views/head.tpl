@@ -43,6 +43,7 @@
   ga('send', 'pageview');
 
 </script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 <!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
